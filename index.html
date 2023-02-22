@@ -3,10 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>RPS game</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1 style="color: blueviolet; font-family: 'Courier New', Courier, monospace; font-weight: bold;">this is rock paper scissors game </h1>
+  
+ <div class="header">
+    <h1>This is rock paper scissors GAME </h1>
+    <p>The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players 
+        choose one of three items: a rock, paper, or scissors.
+  
+        A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
+    </p>
+    <a href="#gamesection"><button class="playnow">PLAY NOW </button></a>
 
+ </div>
+ <div class="middle">
+    <div class="rpsimg">
+        <img src="./img/rpsimg.png" alt="cool image">
+    </div>
+    <div class="imgtext">*** ROCK  PAPER  SCISSORS *** </div>
+ </div>
+ <div id="gamesection">
+    <div class="option-header">choose your weapon</div>
+    <div class="scoreHeader">first to score 7 points wins the game </div>
+    <div class="scoreRecords">
+      <div class="scoreBox">
+         <div class="playersRecord recordDiv">0</div>
+         <span class="recordtext player">  You</span>
+      </div>
+      <div class="recordDivider">:</div>
+      <div class="scoreBox">
+         <div class="computersRecord recordDiv">0</div>
+         <span class="recordtext">computer</span>
+      </div>
+    </div>
+    <div class="playersoptions">
+       <div class="op rock">
+        <div class="div-img rockimg"><img src="./img/rock.png" alt="hand rock icon"></div>
+        <div class="div-text">rock</div>
+
+       </div> 
+       <div class="op paper">
+        <div class="div-img paperimg"><img src="./img/paper.png" alt="hand paper icon"></div>
+        <div class="div-text">paper</div>
+       </div>
+       <div class="op scissors">
+        <div class="div-img scissorsimg"><img src="./img/scissors.png" alt="han scissors icon"></div>
+        <div class="div-text">scissors</div>
+       </div>
+    </div>
+ </div>
+ <div class="footer">
+   copyright © 2023 RemyJohnny
+ </div>
 
 
     <script src="/index.js"></script>

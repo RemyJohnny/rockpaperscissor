@@ -1,0 +1,199 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 50px
+
+
+}
+
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    background-image: url(./img/hdwall.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    box-shadow: 0px 5px 10px 2px #50d0f0;
+
+  
+    
+
+    
+ 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(236, 201, 112);
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 12px;
+
+}
+p {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(236, 201, 112);
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bolder;
+    padding: 0px 60px;
+}
+a {
+    text-decoration: none;
+    text-decoration-style: none;
+    width: fit-content;
+    align-self: center;
+    cursor: pointer;
+}
+button {
+    width: fit-content;
+    align-self: center;
+    padding: 12px 32px;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: solid 1px #50d0f0;
+    border-radius: 16px;
+    color: rgb(66, 49, 6);
+    background-color: #50d0f0;
+    box-shadow: 3px 5px 10px 0px rgba(221, 209, 180, 0.308);
+    cursor: pointer;
+}
+button:hover{
+transform: translateY(3px);
+box-shadow: 1px 3px 5px 0px rgba(221, 209, 180, 0.308);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rpsimg{
+    border-radius: 28px;
+    background-color: #d3d3d3;
+    width: fit-content;
+}
+.imgtext {
+    color: rgb(236, 201, 112);
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+#gamesection{
+    width: 90%;
+    height: 600px;
+    background-image: url(./img/hdwall.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    box-shadow: 0px 5px 10px 2px rgb(236, 201, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.playersoptions{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-header{
+    color: rgb(252, 84, 84);
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.div-img{
+    background-color: #50d0f0;
+    width: fit-content;
+    border-radius: 32px;
+    margin: 1px;
+    transition: all 0.05s;
+    
+}
+.div-text{
+    color: white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.op{
+    cursor: pointer;
+    
+}
+
+
+.op:hover {
+    transform: translateY(6px);
+}
+.scoreHeader{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(236, 201, 112);
+    text-align: center;
+}
+.scoreRecords{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.recordtext{
+    color: white;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: center; 
+}
+.recordDiv{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+
+}
+.recordDivider{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 24px;
+}
+.player{
+    padding-left: 20px;
+}
+.footer{
+    color: #d3d3d3;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 16px 0px;
+    border-top: solid 1px #d3d3d3;
+}
+
+.clickedimg{
+    
+    transform: scale(0.9);
+    
+}
